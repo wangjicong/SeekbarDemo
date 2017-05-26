@@ -15,4 +15,44 @@
         android:layout_height="wrap_content"
         android:id="@+id/seekBar0" />
 
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar1" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:indeterminateOnly="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:progress="0"
+        android:secondaryProgress="50"
+        android:max="100"
+        android:indeterminateBehavior="repeat"
+        android:indeterminateDuration="1000000000"
+        android:id="@+id/progressBar1" />
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:indeterminateOnly="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:progress="50"
+        android:secondaryProgress="70"
+        android:max="100"
+        android:indeterminateBehavior="cycle"
+        android:id="@+id/progressBar" />
+    <wjc.seekbar.ButtonCustomer
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pls click"
+        android:id="@+id/view2" />
+
+    <ProgressBar
+        android:indeterminateOnly="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progress="10"
+        android:max="100"
+        android:secondaryProgress="50"
+        android:id="@+id/progressBar2" />
 </LinearLayout>
