@@ -10,10 +10,16 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="wjc.seekbar.MainActivity">
 
-    <SeekBar
+    <wjc.seekbar.AnimSeekBar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/seekBar0" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="动画"
+        android:id="@+id/anim" />
 
     <SeekBar
         android:layout_width="match_parent"
